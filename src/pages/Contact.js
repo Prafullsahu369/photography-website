@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import { onMouseEnter, onMouseLeave } from 'react';
+// import { onMouseEnter, onMouseLeave } from 'react';
 // import images 
 
 import WomanImg from '../img/contact/woman.png';
@@ -17,8 +17,8 @@ import { CursorContext } from '../context/CursorContext';
 
 const Contact = () => {
   const {mouseEnterHandler,mouseLeaveHandler} = useContext(CursorContext)
-  onMouseEnter={mouseEnterHandler}
-  onMouseLeave={mouseLeaveHandler}
+  // onMouseEnter={mouseEnterHandler}
+  // onMouseLeave={mouseLeaveHandler}
   return (
   < motion.section 
   initial={{opacity:0,y:'100%'}}
