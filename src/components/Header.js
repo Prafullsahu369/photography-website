@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import { onMouseEnter, onMouseLeave } from 'react';
+// import { onMouseEnter, onMouseLeave } from 'react';
 
 
 // import components 
@@ -18,8 +18,8 @@ import { CursorContext } from '../context/CursorContext';
 
 const Header = () => {
   const {mouseEnterHandler,mouseLeaveHandler } = useContext(CursorContext)
-  onMouseEnter={mouseEnterHandler}
-  onMouseLeave={mouseLeaveHandler}
+  // onMouseEnter={mouseEnterHandler}
+  // onMouseLeave={mouseLeaveHandler}
 
   return (
   <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
