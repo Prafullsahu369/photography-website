@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import { onMouseEnter, onMouseLeave } from 'react';
+// import { onMouseEnter, onMouseLeave } from 'react';
 // import icons
  import {
    ImFacebook,
@@ -14,8 +14,8 @@ import { CursorContext } from '../context/CursorContext';
 
 const Socials = () => {
   const {mouseEnterHandler,mouseLeaveHandler} = useContext(CursorContext)
-  onMouseEnter={mouseEnterHandler}
-  onMouseLeave={mouseLeaveHandler}
+  // onMouseEnter={mouseEnterHandler}
+  // onMouseLeave={mouseLeaveHandler}
 
      return(
        <div 
